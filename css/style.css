@@ -1,3 +1,22 @@
+body {
+    background-image: url("../images/raimuBg2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  }
+
+#logo {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
   }
