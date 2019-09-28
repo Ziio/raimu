@@ -10,6 +10,11 @@ body {
     z-index: 1;
   }
 
+.card {
+    margin-bottom: 30px;
+}
+
+
 .nav {
     display: -ms-flexbox;
     display: flex;
@@ -27,11 +32,34 @@ body {
     margin-right: 10px;
 }
 
-h4 {
-    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+.shopBox {
+    margin-top: 40px;
+}
+
+.title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: underline overline;
+}
+
+.aboutText {
+    /* background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: white;
+    font-size: 25px;
+    margin: 30px;
   }
+
+.textBox { 
+    background-color: black;
+    margin: 30px;
+    border: 1px solid black;
+    opacity: 0.55;
+    filter: alpha(opacity=60);
+    border-radius: 15px;
+}
 
 #logo {
     position: absolute;
